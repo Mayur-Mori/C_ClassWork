@@ -6,7 +6,7 @@ main()
 	FILE *fptr;//To access the file with pointer file type.
 	char data[30];//Data to store in file
 	//fopen(filename,mode);
-	fptr=fopen("File Handling.txt","r");//to open the file in write mode
+	fptr=fopen("myfirstfile.txt","r");//to open the file in write mode
 	
 	if(fptr == NULL)//checking that the file is exist or not.
 	{
